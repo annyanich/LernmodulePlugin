@@ -366,6 +366,8 @@ export function newTask(type: TaskDefinition['task_type']): TaskDefinition {
         disableNavigation: 'not disabled',
         travisGoSettings: {
           enabled: false,
+          projectTitle: $gettext('Projekttitel'),
+          projectDescription: $gettext('Projektbeschreibung'),
         },
       };
     case 'FillInTheBlanks':
